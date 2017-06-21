@@ -6,6 +6,7 @@ namespace ConsotoUniversity.DAL
 {
     public class SchoolContext : DbContext
     {
+        // connection string
         public SchoolContext() : base("SchoolContext")
         {
         }
